@@ -16,7 +16,7 @@ decode("./input.txt")
             lines.push(obj)
         }
 
-        lines.sort((a, b) => a.num - b.num);
+        lines.sort((a, b) => a.num - b.num); //sort based on number in line
         let step = 1;
         let endLines = [];
         while(lines.length){
