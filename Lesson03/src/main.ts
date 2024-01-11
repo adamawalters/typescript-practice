@@ -46,6 +46,15 @@ enum Grade {
     A
 }
 
+interface Props {
+    x: number;
+    y: number;
+    name: string;
+}
+
+let a = {};
+a['x'] = 3;    
+
 console.log(Grade.F)
 console.log(Grade.D)
 

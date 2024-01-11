@@ -21,4 +21,17 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+setupCounter(document.querySelector<HTMLButtonElement>('#counter')!) 
+
+interface Student {
+  name: string,
+  GPA: number
+}
+
+const a: Student  = {
+  name: "Adama", 
+  GPA: 4.0
+}
+
+a.x = 3
+console.log(`a.x is ${a.x}`)
